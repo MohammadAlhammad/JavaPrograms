@@ -9,12 +9,12 @@ public class TheUnknownMethod {
 		   int max = 100, min = 1;
 		   int range = (max - min) + 1;
 
-	      Scanner input = new Scanner (System.in);
+	      Scanner Mo = new Scanner (System.in);
 
 	      System.out.println("Do you want to know what the method does?");
 	      System.out.println("yes/no");
 
-	      String answer=input.next();
+	      String answer=Mo.next();
 	      answer=answer.toLowerCase();        
 
 	      while ( answer.equals("yes") ){
@@ -26,7 +26,7 @@ public class TheUnknownMethod {
 	        System.out.println("Do you STILL want to know what the method does?");
 	        System.out.println("yes/no");
 
-	        answer=input.next();
+	        answer=Mo.next();
 	        answer=answer.toLowerCase();
 
 	      }
