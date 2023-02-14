@@ -10,7 +10,7 @@ public class BinaryConvert {
         String binaryBits = Mo.next();
         while (binaryBits.length() != 4){
             System.out.println("Incorrect, please enter four bits: ");
-            binaryBits = input.next();
+            binaryBits = Mo.next();
         }
         int decimal = 0;
 
@@ -25,3 +25,4 @@ public class BinaryConvert {
 	}
 
 }                                                            // Thank you for using MohammadAlhammads‘ program :)//
+
